@@ -82,7 +82,7 @@ export default function Hero() {
           className="mt-8 flex flex-col sm:flex-row gap-4 items-center justify-center w-full"
         >
           <a
-            href="https://t.me/@zerozone5"
+            href="https://t.me/zerozone5"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 text-white rounded-xl font-medium bg-brand-green hover:bg-brand-lime transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 text-center shadow-lg shadow-brand-green/20"

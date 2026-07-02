@@ -53,7 +53,7 @@ export default function CTA() {
             <span className="text-brand-green"> Life-time Access</span> ပါ
             ရရှိမှာဖြစ်လို့ အခုပဲ{" "}
             <a
-              href="https://t.me/@zerozone5"
+              href="https://t.me/zerozone5"
               target="_blank"
               rel="noreferrer"
               className="text-blue-400"
@@ -99,7 +99,7 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
           <a
-            href="https://t.me/@zerozone5"
+            href="https://t.me/zerozone5"
             target="_blank"
             rel="noreferrer"
             className="w-full sm:w-auto px-8 py-4 bg-brand-green hover:bg-emerald-600 text-white font-bold rounded-2xl transition-all duration-300 hover:scale-[1.03] shadow-[0_4px_20px_rgba(16,185,129,0.3)]"
