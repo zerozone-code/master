@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="md:text-xl uppercase font-bold bg-linear-to-r from-brand-green to-blue-400 bg-clip-text text-transparent">
         develop by zero zone
       </div>
-      <div className="text-brand-green font-bold">
+      <div className="text-brand-green font-bold text-center">
         တက်ချင်တက် မတက်ချင်နေ မင်းတို့အတွက် ပြော..တာ😛
       </div>
     </div>

@@ -69,17 +69,17 @@ export default function CTA() {
           Class Starts In
         </div>
 
-        <div className="flex justify-center items-center gap-3 sm:gap-4 my-6">
+        <div className="flex  justify-center items-center gap-1 sm:gap-3   my-6">
           {[
             { label: "Days", value: timeLeft.days },
             { label: "Hours", value: timeLeft.hours },
             { label: "Mins", value: timeLeft.minutes },
             { label: "Secs", value: timeLeft.seconds },
           ].map((item, index) => (
-            <div key={index} className="flex items-center gap-2">
+            <div key={index} className="flex items-center gap-2 ">
               <div className="flex flex-col items-center">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-900/80 border border-emerald-500/30 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg">
-                  <span className="text-2xl sm:text-3xl font-black text-emerald-400 font-mono tracking-wider">
+                <div className="w-12 h-12 sm:w-20 sm:h-20 bg-gray-900/80 border border-emerald-500/30 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg">
+                  <span className="text-xl sm:text-3xl font-black text-emerald-400 font-mono tracking-wider">
                     {formatTime(item.value)}
                   </span>
                 </div>
