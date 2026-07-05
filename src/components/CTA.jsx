@@ -4,7 +4,7 @@ export default function CTA() {
   const calculateTimeLeft = () => {
     const currentYear = new Date().getFullYear();
     const difference =
-      +new Date(`July 7, ${currentYear} 00:00:00`) - +new Date();
+      +new Date(`July 9, ${currentYear} 00:00:00`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
